@@ -1,0 +1,17 @@
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "CAIRO",
+      'continent': "AF",
+      'country': "EG",
+      'region': "C",
+      'dma': ""
+    },
+    'ip':"196.137.151.49"
+  }]);
+})
+
+()
+
+;

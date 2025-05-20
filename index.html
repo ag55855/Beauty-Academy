@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>الرئيسية - أكاديمية التجميل</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Cairo", sans-serif;
+        background-color: #fdfdfd;
+      }
+
+      .hero {
+        background: url("./pexels-karolina-grabowska-4938502.jpg") center
+          center/cover no-repeat;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        color: white;
+        text-align: center;
+        position: relative;
+      }
+
+      .hero-overlay {
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 2;
+      }
+
+      .section-title {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .card img {
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .map-container {
+        width: 100%;
+        height: 400px;
+        border: none;
+      }
+
+      footer {
+        background-color: #222;
+        color: #fff;
+        padding: 20px 0;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- الهيدر -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">💄 أكاديمية التجميل</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+          title="فتح القائمة"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" href="#">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">الكورسات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">الخدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="offers.html">العروض</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">اتصل بنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 class="display-4 mb-3">أهلاً بكِ في أكاديمية التجميل</h1>
+        <p class="lead mb-4">كورسات احترافية، خدمات متكاملة، عروض مستمرة!</p>
+        <a href="courses.html" class="btn btn-primary btn-lg"
+          >ابدئي رحلتك الآن</a
+        >
+      </div>
+    </section>
+
+    <!-- الكورسات -->
+    <section class="container">
+      <h2 class="section-title">🎓 أشهر الكورسات</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="istockphoto-1296431297-612x612.jpg"
+              class="card-img-top"
+              alt="كورسات الميك أب"
+            />
+            <div class="card-body">
+              <h5 class="card-title">كورس الميك أب الاحترافي</h5>
+              <p class="card-text">
+                تعلمي أحدث تقنيات الميك أب من خبراء المجال.
+              </p>
+              <a href="courses.html" class="btn btn-outline-primary">المزيد</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./pexels-photo-415829.jpeg"
+              class="card-img-top"
+              alt="خبيرة التجميل"
+            />
+            <div class="card-body">
+              <h5 class="card-title">خبيرة التجميل الشاملة</h5>
+              <p class="card-text">كل ما تحتاجينه لتصبحي خبيرة تجميل معتمدة.</p>
+              <a href="courses.html" class="btn btn-outline-primary">المزيد</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./pexels-photo-3762876.webp"
+              class="card-img-top"
+              alt="التقشير والعناية بالبشرة"
+            />
+            <div class="card-body">
+              <h5 class="card-title">التقشير والعناية بالبشرة</h5>
+              <p class="card-text">
+                تعرفي على أنواع التقشير وطرق العناية اليومية.
+              </p>
+              <a href="courses.html" class="btn btn-outline-primary">المزيد</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- الخدمات -->
+    <section class="container">
+      <h2 class="section-title">💅 خدماتنا</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./6825ed798c9fe04796ccfc30aa742bc0.webp"
+              class="card-img-top"
+              alt="تجميل البشرة"
+            />
+            <div class="card-body">
+              <h5 class="card-title">تجميل البشرة</h5>
+              <p class="card-text">
+                تنظيف، تقشير، ترطيب وماسكات علاجية للبشرة.
+              </p>
+              <a href="services.html" class="btn btn-outline-success"
+                >اكتشفي المزيد</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./6e8628ea-1a7c-427a-b5f8-bd92e6ee6e0b.jpg"
+              class="card-img-top"
+              alt="الحقن التجميلي"
+            />
+            <div class="card-body">
+              <h5 class="card-title">الحقن التجميلي</h5>
+              <p class="card-text">
+                بوتوكس، فيلر، نضارة لتجديد شباب البشرة بأمان.
+              </p>
+              <a href="services.html" class="btn btn-outline-success"
+                >اكتشفي المزيد</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./b3598fc3-c5bb-4a99-ba4c-ac4e42a6c625.jpg"
+              class="card-img-top"
+              alt="الليزر التجميلي"
+            />
+            <div class="card-body">
+              <h5 class="card-title">الليزر التجميلي</h5>
+              <p class="card-text">
+                إزالة الشعر، تفتيح، علاج التصبغات بأحدث الأجهزة.
+              </p>
+              <a href="services.html" class="btn btn-outline-success"
+                >اكتشفي المزيد</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- العنوان والخريطة -->
+    <section class="container">
+      <h2 class="section-title">📍 موقعنا</h2>
+      <p class="text-center mb-3">شارع النصر، المهندسين - الجيزة - مصر</p>
+      <iframe
+        class="map-container"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.052585186866!2d31.203381415113745!3d30.035470981889643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fc19ef1a221%3A0x9cb8a3c227c5e6aa!2z2YXYrNmF2Lkg2KfZhNis2YrYp9iq2YrYqQ!5e0!3m2!1sar!2seg!4v1615568312086!5m2!1sar!2seg"
+        allowfullscreen=""
+        title="موقع أكاديمية التجميل على الخريطة"
+      ></iframe>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="text-center">
+      <div class="container">
+        <p>© 2025 أكاديمية التجميل - جميع الحقوق محفوظة</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

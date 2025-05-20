@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>تواصل معنا - أكاديمية التجميل</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Cairo', sans-serif; }
+    iframe { border: 0; width: 100%; height: 300px; border-radius: 10px; }
+    .form-control, .btn-primary { border-radius: 8px; }
+  </style>
+</head>
+<body>
+
+<!-- الهيدر -->
+<nav class="navbar navbar-expand-lg bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">💄 أكاديمية التجميل</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" title="فتح القائمة">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+        <li class="nav-item"><a class="nav-link" href="courses.html">الكورسات</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">الخدمات</a></li>
+        <li class="nav-item"><a class="nav-link" href="offers.html">العروض</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">من نحن</a></li>
+        <li class="nav-item"><a class="nav-link active" href="./contact.html">تواصل معنا</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- المحتوى -->
+<div class="container py-5">
+  <h1 class="text-center fw-bold mb-4">تواصل معنا</h1>
+
+  <div class="row g-4">
+    <div class="col-md-6">
+      <h4 class="mb-3">عنوان الأكاديمية</h4>
+      <p>شارع الملك فيصل، جدة، المملكة العربية السعودية</p>
+
+      <h4 class="mb-3 mt-4">رقم الهاتف</h4>
+      <p>+966 55 123 4567</p>
+
+      <h4 class="mb-3 mt-4">البريد الإلكتروني</h4>
+      <p>info@beautyacademy.com</p>
+
+      <h4 class="mb-3 mt-4">تابعنا على وسائل التواصل الاجتماعي</h4>
+      <p>
+        <a href="#" class="me-3 text-decoration-none">فيسبوك</a> | 
+        <a href="#" class="me-3 text-decoration-none">إنستجرام</a> | 
+        <a href="#" class="text-decoration-none">تويتر</a>
+      </p>
+
+      <h4 class="mb-3 mt-4">موقعنا على الخريطة</h4>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.3455677811645!2d39.18153801501431!3d21.48581148573097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c204e5635a16a5%3A0x86ebc33ca4a63991!2z2YXYtNio2YXYt9mF2LnYqSDYp9mE2KfZitin2Kog2YXYp9mE2YXYqNmKINmE2YTYtdiMINin2Kog2KfZhNin2YTZgNiq2Ycg2KfZhNmF2Kkg2KfZhNiqINin2YTYqNiq!5e0!3m2!1sar!2ssa!4v1692507420303!5m2!1sar!2ssa" allowfullscreen="" title="موقع أكاديمية التجميل على الخريطة"></iframe>
+    </div>
+
+    <div class="col-md-6">
+      <h4 class="mb-3">راسلنا</h4>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">الاسم الكامل</label>
+          <input type="text" class="form-control" id="name" placeholder="اكتب اسمك" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">البريد الإلكتروني</label>
+          <input type="email" class="form-control" id="email" placeholder="example@mail.com" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">الرسالة</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="اكتب رسالتك هنا" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">إرسال</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- الفوتر -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>© 2025 أكاديمية التجميل. جميع الحقوق محفوظة.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

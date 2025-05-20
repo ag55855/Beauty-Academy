@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>العروض - أكاديمية التجميل</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Cairo", sans-serif;
+      }
+      .offer-card img {
+        height: 200px;
+        object-fit: cover;
+      }
+      .qr-code {
+        text-align: center;
+        margin-top: 40px;
+      }
+      .qr-code img {
+        width: 200px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 10px;
+        background: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- الهيدر -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"
+          >💄 أكاديمية التجميل</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          title="تبديل القائمة"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">الكورسات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">الخدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./offers.html">العروض</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">تواصل معنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- محتوى الصفحة -->
+    <div class="container py-5">
+      <h1 class="text-center fw-bold mb-5">العروض الخاصة</h1>
+
+      <!-- عرض 1 -->
+      <div class="row mb-4">
+  <!-- <div class="col-md-6">
+   
+  </div> -->
+  <div class="col-md-6 d-flex flex-column justify-content-center">
+    <h3 class="text-primary">عرض الأسبوع: جلسة تنظيف + ماسك مجاناً</h3>
+    <p>عند حجز جلسة تنظيف عميق للبشرة ستحصلين على ماسك علاجي مجاني 🎁.</p>
+    <p><strong>ساري حتى:</strong> نهاية هذا الأسبوع</p>
+  </div>
+</div>
+
+<!-- عرض 2: خصم على كورسات الميك أب -->
+<div class="row mb-4">
+  <div class="col-md-6 order-md-2">
+
+  </div>
+  <div class="col-md-6 d-flex flex-column justify-content-center">
+    <h3 class="text-primary">عرض الشهر: خصم 25% على كورسات الميك أب</h3>
+    <p>سجلي الآن واحصلي على خصم حصري على دورة الميك أب الاحترافية مع شهادات معتمدة.</p>
+    <p><strong>ساري حتى:</strong> نهاية الشهر الحالي</p>
+  </div>
+</div>
+
+<!-- QR Code للمشاركة -->
+<div class="qr-code">
+  <h5 class="mb-3">امسحي الكود للاطلاع على العروض ومشاركتها على السوشيال ميديا:</h5>
+  <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://academy-qr-link.com/offers&size=200x200" alt="QR Code العروض" />
+  <p class="mt-2">
+    <a href="https://academy-qr-link.com/offers" target="_blank" rel="noopener">رابط مباشر: academy-qr-link.com/offers</a>
+  </p>
+</div>
+
+
+    <!-- الفوتر -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>© 2025 أكاديمية التجميل. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
